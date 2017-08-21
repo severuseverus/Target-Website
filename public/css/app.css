@@ -6,7 +6,7 @@ body {
 
 .content {
   margin: 0 auto;
-  max-width: 925px;
+  max-width: 725px;
 }
 
 @media screen and (max-width: 320px) {
