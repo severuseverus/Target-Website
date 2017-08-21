@@ -24,8 +24,14 @@ html, body {
   }
 }
 
-.navbar > .content {
+.navbar.content {
   width: 100%;
+  .navbar-brand {
+    @media screen and (max-width: $break-medium) {
+      position: relative;
+      float: right;
+    }
+  }
 }
 
 .nav-item.active {

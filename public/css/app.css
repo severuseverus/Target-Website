@@ -21,8 +21,15 @@ body {
   }
 }
 
-.navbar > .content {
+.navbar.content {
   width: 100%;
+}
+
+@media screen and (max-width: 715px) {
+  .navbar.content .navbar-brand {
+    position: relative;
+    float: right;
+  }
 }
 
 .nav-item.active:after {
