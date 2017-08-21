@@ -6,47 +6,98 @@
 @import "variables";
 
 // Bootstrap
-@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 html, body {
   background-color: #fff;
-  color: #636b6f;
   font-family: 'Raleway', sans-serif;
-  height: 100vh;
 }
 
 .content {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 925px;
+  @media screen and (max-width: $break-small) {
+    max-width: 100%;
+  }
+  @media screen and (max-width: $break-medium) {
+    max-width: 100%;
+  }
+}
+
+.navbar > .content {
+  width: 100%;
+}
+
+.nav-item.active {
+  &:after {
+    background: $blue-dark;
+    content: '';
+    display: block;
+    height: 2px;
+    margin-top: 8px;
+    width: 75%;
+  }
+}
+
+.section-content {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.home-banner {
+  text-align: center;
+  padding: 90px 0;
+  color: $text-color;
+  font-size: 27px;
+  letter-spacing: 16px;
+  background: $blue-light;
+
+  .cta-button {
+    margin-top: 60px;
+  }
+}
+
+.make-budget {
+  text-align: center;
+  padding: 50px 0;
+  color: $text-color;
+  font-size: 20px;
+  background: $blue-dark;
+
+  letter-spacing: 10px;
+
+  span {
+    display: block;
+    padding: 7px;
+    margin-bottom: 33px;
+  }
 }
 
 .cta-button {
   border: $cta-border solid 6px;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-border-radius:30px;
-  -moz-border-radius:30px;
-  border-radius:30px;
+  -webkit-border-radius:200px;
+  -moz-border-radius:200px;
+  border-radius:200px;
   background-color: transparent;
   color: $text-color;
   font-size: 21px;
-  padding: 12px 78px;
+  letter-spacing: 13px;
+  padding: 8px;
+  width: 364px;
+  display: inline-block;
+  align-self: center;
 
   &:hover {
     border: $cta-border-hover solid 6px;
     text-decoration: none;
     text-transform: uppercase;
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    border-radius:30px;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
     font-size: 21px;
-    padding: 12px 78px;
+    padding: 8px;
+    color: $text-color;
   }
-}
-
-.home-banner {
-  height: 640px;
-  width: 100%;
-  color: $text-color;
 }
