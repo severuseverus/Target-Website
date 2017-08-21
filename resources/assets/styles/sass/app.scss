@@ -1,0 +1,52 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "../../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.cta-button {
+  border: $cta-border solid 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  border-radius:30px;
+  background-color: transparent;
+  color: $text-color;
+  font-size: 21px;
+  padding: 12px 78px;
+
+  &:hover {
+    border: $cta-border-hover solid 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    font-size: 21px;
+    padding: 12px 78px;
+  }
+}
+
+.home-banner {
+  height: 640px;
+  width: 100%;
+  color: $text-color;
+}
