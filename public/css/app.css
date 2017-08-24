@@ -9,6 +9,30 @@ body,
   width: 100%;
 }
 
+.dropdown-menu.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 13px 0px 0px -20px;
+  border-radius: 0px;
+  background-color: #1f405f;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-menu.show {
+    display: block;
+    margin: 0px;
+  }
+}
+
+.dropdown-menu.show .dropdown-item {
+  color: #fefefe;
+}
+
+.dropdown-menu.show .dropdown-item:hover {
+  background-color: #24597d;
+}
+
 .nav-wrapper {
   height: 105px;
 }
@@ -144,15 +168,9 @@ body,
           justify-content: space-between;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar-nav .nav-item {
-    padding: 10px 7px;
-  }
-}
-
 @media screen and (min-width: 767px) {
   .navbar-nav .nav-item.active:after {
-    background: #1c3450;
+    background: #1f405f;
     content: '';
     display: block;
     height: 5px;
@@ -174,6 +192,61 @@ body,
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='#194687' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+@media screen and (max-width: 767px) {
+  [class*="nav-option"] > a {
+    color: #fefefe !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-1 {
+    background-color: #194687;
+    border: 1px solid #194687;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-2 {
+    background-color: #19467d;
+    border: 1px solid #19467d;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-3 {
+    background-color: #1a4673;
+    border: 1px solid #1a4673;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-4 {
+    background-color: #184366;
+    border: 1px solid #184366;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-5 {
+    background-color: #173c56;
+    border: 1px solid #173c56;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-6 {
+    background-color: #153649;
+    border: 1px solid #153649;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-option-7 {
+    background-color: #13303e;
+    border: 1px solid #13303e;
+  }
 }
 
 .section-content {
@@ -230,7 +303,7 @@ body,
   padding: 30px 0;
   color: #fefefe;
   font-size: 20px;
-  background: #1c3450;
+  background: #1f405f;
   margin-top: 20px;
   margin-bottom: 20px;
   letter-spacing: 10px;
@@ -433,7 +506,7 @@ body,
 }
 
 .footer {
-  background: #1c3450;
+  background: #1f405f;
   padding: 20px 0px 25px 0px;
   color: #fefefe;
   font-size: 13px;
@@ -474,7 +547,7 @@ body,
 }
 
 .text-blue-dark {
-  color: #1c3450;
+  color: #1f405f;
 }
 
 .text-blue-light {

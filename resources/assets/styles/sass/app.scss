@@ -19,6 +19,29 @@ html, body, .nav-wrapper {
   width: 100%;
 }
 
+.dropdown-menu.show {
+  display: flex;
+  margin: 13px 0px 0px -20px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+
+  background-color: $blue-dark;
+
+  @media screen and (max-width: $break-medium) {
+    display: block;
+    margin: 0px;
+  }
+
+  .dropdown-item {
+    color: $text-color;
+
+    &:hover {
+      background-color: #24597d;
+    }
+  }
+}
+
 .nav-wrapper {
   height: 105px;
 
@@ -83,12 +106,6 @@ html, body, .nav-wrapper {
   width: 100%;
   justify-content: space-between;
 
-  @media screen and (max-width: $break-medium) {
-    .nav-item {
-      padding: 10px 7px;
-    }
-  }
-
   .nav-item.active {
     @media screen and (min-width: $break-medium) {
       &:after {
@@ -115,6 +132,61 @@ html, body, .nav-wrapper {
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='#194687' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+[class*="nav-option"] > a {
+  @media screen and (max-width: $break-medium) {
+    color: $text-color !important;
+  }
+}
+
+.nav-option-1 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #194687;
+    border: 1px solid #194687;
+  }
+}
+
+.nav-option-2 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #19467d;
+    border: 1px solid #19467d;
+  }
+}
+
+.nav-option-3 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #1a4673;
+    border: 1px solid #1a4673;
+  }
+}
+
+.nav-option-4 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #184366;
+    border: 1px solid #184366;
+  }
+}
+
+.nav-option-5 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #173c56;
+    border: 1px solid #173c56;
+  }
+}
+
+.nav-option-6 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #153649;
+    border: 1px solid #153649;
+  }
+}
+
+.nav-option-7 {
+  @media screen and (max-width: $break-medium) {
+    background-color: #13303e;
+    border: 1px solid #13303e;
+  }
 }
 
 .section-content {
