@@ -13,7 +13,7 @@
                 <div class="col-12 pr-0 pl-0">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item nav-option-1">
+                            <li class="nav-item nav-option-1 active">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Inicio</a>
                             </li>
                             <li class="nav-item nav-option-2">
