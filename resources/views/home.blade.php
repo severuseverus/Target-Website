@@ -69,4 +69,61 @@
             </div>
         </div>
     </section>
+    <section class="partners content">
+        <div class="row justify-content-center">
+            <div class="col-7">
+                <h5 class="text-uppercase text-blue font-weight-bold">Nossos principais clientes</h5>
+                <hr class="hr-blue mt-0">
+            </div>
+        </div>
+        <div class="section-content slider d-none d-md-inline-block">
+            <div class="slider-item">
+                <div class="row">
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca Cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row">
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca Cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row">
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca Cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content slider d-md-none d-inline-block">
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection

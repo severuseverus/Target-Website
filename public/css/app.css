@@ -1,8 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);html,
 body,
-nav {
-  background-color: #fff;
+.nav-wrapper {
+  background-color: #ffffff;
   font-family: "Open Sans";
+}
+
+.fill-width {
+  width: 100%;
+}
+
+.nav-wrapper {
+  height: 105px;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-wrapper {
+    width: 100%;
+    height: 69px;
+  }
 }
 
 .wrapper {
@@ -344,6 +359,35 @@ nav {
   padding: 0px 60px;
 }
 
+.partners {
+  text-align: center;
+  padding: 45px 0px 4px 0px;
+}
+
+.partners .slick-dots {
+  margin-top: 0px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .partners .slick-dots {
+    margin-top: 0px;
+  }
+}
+
+.partners .slick-dots li button:before {
+  font-size: 9px;
+  color: #bfbfbf;
+}
+
+.partners .slick-dots li.slick-active button:before {
+  color: #194687;
+}
+
+.partners .slider-item {
+  padding: 0px 60px;
+}
+
 .leads {
   padding: 30px 0px 13px 0px;
   color: #fefefe;
@@ -419,6 +463,22 @@ nav {
 .footer ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.text-blue {
+  color: #194687;
+}
+
+.hr-blue {
+  border: 1px solid #c5d1e1;
+}
+
+.text-blue-dark {
+  color: #1c3450;
+}
+
+.text-blue-light {
+  color: #107dff;
 }
 
 .m-t-37 {
