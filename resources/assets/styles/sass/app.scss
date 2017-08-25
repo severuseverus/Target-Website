@@ -65,7 +65,7 @@ html, body, .nav-wrapper {
 }
 
 .nav-wrapper {
-  height: 130px;
+  height: 211px;
 
   @media screen and (max-width: $break-medium) {
     width: 100%;
@@ -74,7 +74,7 @@ html, body, .nav-wrapper {
 }
 
 .wrapper {
-  padding-top: 105px;
+  padding-top: 211px;
 
   @media screen and (max-width: $break-medium) {
     width: 100%;
@@ -218,7 +218,8 @@ html, body, .nav-wrapper {
 
 .home-banner {
   text-align: center;
-  padding: 90px 0 4px 0;
+  padding: 148px 84px 13px 68px;
+  height: 639px;
   color: $text-color;
   font-size: 27px;
   letter-spacing: 16px;
@@ -239,7 +240,7 @@ html, body, .nav-wrapper {
 }
 
 .slick-dots {
-  margin-top: 30px;
+  margin-top: 117px;
   position: relative;
 
   @media screen and (max-width: $break-medium) {
@@ -259,6 +260,7 @@ html, body, .nav-wrapper {
 .make-budget {
   text-align: center;
   padding: 30px 0;
+  height: 223px;
   color: $text-color;
   font-size: 20px;
   background: $blue-dark;
@@ -365,7 +367,7 @@ html, body, .nav-wrapper {
 
 .services {
   text-align: center;
-  padding: 45px 0px 4px 0px;
+  padding: 96px 122px;
   color: $text-color;
   letter-spacing: 4px;
   background: $blue-light;
@@ -410,6 +412,11 @@ html, body, .nav-wrapper {
 .partners {
   text-align: center;
   padding: 45px 0px 4px 0px;
+
+  .partners-title {
+    font-size: 17px;
+    letter-spacing: 4px;
+  }
 
   .slick-dots {
     margin-top: 0px;
@@ -479,9 +486,10 @@ html, body, .nav-wrapper {
 
 .footer {
   background: $blue-dark;
-  padding: 20px 0px 25px 0px;
+  padding: 47px 0px 55px 0px;
   color: $text-color;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 22px;
 
   img {
     margin-bottom: 27px;
@@ -493,11 +501,15 @@ html, body, .nav-wrapper {
     img {
       width: 147px;
     }
+
+    .facebook-icon, .newmove-icon {
+      width: 48px;
+    }
   }
 
   hr {
     margin-top: 0.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 26px;
     border: 0;
     border-top: 1px solid #fff;
   }
@@ -505,6 +517,18 @@ html, body, .nav-wrapper {
   ul {
     list-style-type: none;
     padding-left: 0;
+  }
+
+  .footer-navigation > li{
+    margin-bottom: 2px;
+  }
+
+  .footer-target-description {
+    width: 458px;
+
+    @media screen and (max-width: $break-medium) {
+      width: 100%;
+    }
   }
 }
 

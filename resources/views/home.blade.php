@@ -71,8 +71,8 @@
     </section>
     <section class="partners content">
         <div class="row justify-content-center">
-            <div class="col-7">
-                <h5 class="text-uppercase text-blue font-weight-bold">Nossos principais clientes</h5>
+            <div class="col-6">
+                <h5 class="text-uppercase text-blue font-weight-bold partners-title">Nossos principais clientes</h5>
                 <hr class="hr-blue mt-0">
             </div>
         </div>

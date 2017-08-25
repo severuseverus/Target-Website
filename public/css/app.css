@@ -57,7 +57,7 @@ body,
 }
 
 .nav-wrapper {
-  height: 130px;
+  height: 211px;
 }
 
 @media screen and (max-width: 767px) {
@@ -68,7 +68,7 @@ body,
 }
 
 .wrapper {
-  padding-top: 105px;
+  padding-top: 211px;
 }
 
 @media screen and (max-width: 767px) {
@@ -279,7 +279,8 @@ body,
 
 .home-banner {
   text-align: center;
-  padding: 90px 0 4px 0;
+  padding: 148px 84px 13px 68px;
+  height: 639px;
   color: #fefefe;
   font-size: 27px;
   letter-spacing: 16px;
@@ -302,7 +303,7 @@ body,
 }
 
 .slick-dots {
-  margin-top: 30px;
+  margin-top: 117px;
   position: relative;
 }
 
@@ -324,6 +325,7 @@ body,
 .make-budget {
   text-align: center;
   padding: 30px 0;
+  height: 223px;
   color: #fefefe;
   font-size: 20px;
   background: #1f405f;
@@ -431,7 +433,7 @@ body,
 
 .services {
   text-align: center;
-  padding: 45px 0px 4px 0px;
+  padding: 96px 122px;
   color: #fefefe;
   letter-spacing: 4px;
   background: #107dff;
@@ -478,6 +480,11 @@ body,
 .partners {
   text-align: center;
   padding: 45px 0px 4px 0px;
+}
+
+.partners .partners-title {
+  font-size: 17px;
+  letter-spacing: 4px;
 }
 
 .partners .slick-dots {
@@ -550,9 +557,10 @@ body,
 
 .footer {
   background: #1f405f;
-  padding: 20px 0px 25px 0px;
+  padding: 47px 0px 55px 0px;
   color: #fefefe;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 .footer img {
@@ -567,11 +575,16 @@ body,
   .footer img {
     width: 147px;
   }
+
+  .footer .facebook-icon,
+  .footer .newmove-icon {
+    width: 48px;
+  }
 }
 
 .footer hr {
   margin-top: 0.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 26px;
   border: 0;
   border-top: 1px solid #fff;
 }
@@ -579,6 +592,20 @@ body,
 .footer ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+.footer .footer-navigation > li {
+  margin-bottom: 2px;
+}
+
+.footer .footer-target-description {
+  width: 458px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer .footer-target-description {
+    width: 100%;
+  }
 }
 
 .text-blue {
