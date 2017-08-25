@@ -78,27 +78,18 @@
         </div>
         <div class="section-content slider d-none d-md-inline-block">
             <div class="slider-item">
-                <div class="row">
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca Cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/cetelem.png') }}" class="d-flex" width="100%" alt=""></div>
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/coca-cola.png') }}" class="d-flex" width="100%" alt=""></div>
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/femsa.png') }}" class="d-flex" width="100%" alt=""></div>
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/heineken.png') }}" class="d-flex" width="100%" alt=""></div>
                 </div>
             </div>
             <div class="slider-item">
-                <div class="row">
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca Cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="row">
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca Cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/telhanorte.png') }}" class="d-flex" width="100%" alt=""></div>
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center d-flex"><img src="{{ asset('images/partners/hp.png') }}" class="d-flex" height="100%" alt=""></div>
+                    <div class="col-md-3 mt-md-5 mt-sm-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/saint-gobain.png') }}" class="d-flex" width="100%" alt=""></div>
                 </div>
             </div>
         </div>
@@ -106,7 +97,7 @@
             <div class="slider-item">
                 <div class="row justify-content-center">
                     <div class="col-3">
-                        <img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/cetelem.png') }}" alt="Coca cola">
                     </div>
                 </div>
             </div>
@@ -120,7 +111,35 @@
             <div class="slider-item">
                 <div class="row justify-content-center">
                     <div class="col-3">
-                        <img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/femsa.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/partners/heineken.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/partners/telhanorte.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/partners/hp.png') }}" alt="Coca cola">
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <img src="{{ asset('images/partners/saint-gobain.png') }}" alt="Coca cola">
                     </div>
                 </div>
             </div>
