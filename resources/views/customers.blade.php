@@ -8,12 +8,8 @@
 
 @section('content')
     <section class="customers-banner">
-        <div class="row content justify-content-center py-5">
-            <div class="pt-5">
-                <div class="pt-5">
-                    <h2 class="banner-title">Clientes</h2>
-                </div>
-            </div>
+        <div class="row content justify-content-center">
+            <h2 class="banner-title">Clientes</h2>
         </div>
     </section>
     <section class="customers-content content">

@@ -174,8 +174,14 @@ body,
   }
 }
 
-.navbar.content {
-  width: 100%;
+@media screen and (min-width: 767px) {
+  .navbar .margin-nav-content {
+    margin-top: 47px;
+  }
+
+  .navbar .margin-nav-content .margin-nav-items {
+    margin-top: 34px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -377,10 +383,9 @@ body,
   border-radius: 200px;
   background-color: transparent;
   color: #fefefe;
-  font-size: 21px;
-  letter-spacing: 6px;
-  padding: 8px;
-  width: 264px;
+  font-size: 29px;
+  letter-spacing: 16px;
+  padding: 30px 102px;
   display: inline-block;
   -ms-flex-item-align: center;
       align-self: center;

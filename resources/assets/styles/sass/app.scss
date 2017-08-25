@@ -114,8 +114,16 @@ html, body, .nav-wrapper {
   }
 }
 
-.navbar.content {
-  width: 100%;
+.navbar {
+  .margin-nav-content {
+    @media screen and (min-width: $break-medium) {
+      margin-top: 47px;
+
+      .margin-nav-items {
+        margin-top: 34px;
+      }
+    }
+  }
 }
 
 .navbar-brand {
@@ -313,10 +321,9 @@ html, body, .nav-wrapper {
   border-radius: 200px;
   background-color: transparent;
   color: $text-color;
-  font-size: 21px;
-  letter-spacing: 6px;
-  padding: 8px;
-  width: 264px;
+  font-size: 29px;
+  letter-spacing: 16px;
+  padding: 30px 102px;
   display: inline-block;
   align-self: center;
   font-weight: bolder;
