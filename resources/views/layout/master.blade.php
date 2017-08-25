@@ -7,15 +7,17 @@
     
     <title>Target</title>
     
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-    
-    <link href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('plugins/bootstrap/css/bootstrap-grid.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('plugins/bootstrap/css/bootstrap-reboot.min.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('plugins/slick/slick.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('plugins/slick/slick-theme.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    @section('styles')
+        <!-- Fonts -->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        
+        <link href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('plugins/bootstrap/css/bootstrap-grid.min.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('plugins/bootstrap/css/bootstrap-reboot.min.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('plugins/slick/slick.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('plugins/slick/slick-theme.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    @show
 </head>
 <body>
 <div class="wrapper">

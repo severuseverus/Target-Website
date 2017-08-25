@@ -79,26 +79,26 @@
         <div class="section-content slider d-none d-md-inline-block">
             <div class="slider-item">
                 <div class="row">
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca Cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca Cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row">
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca Cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca Cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row">
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca Cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
-                    <div class="col-3"><img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca Cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
+                    <div class="col-3"><img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola"></div>
                 </div>
             </div>
         </div>
@@ -106,21 +106,21 @@
             <div class="slider-item">
                 <div class="row justify-content-center">
                     <div class="col-3">
-                        <img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row justify-content-center">
                     <div class="col-3">
-                        <img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row justify-content-center">
                     <div class="col-3">
-                        <img src="{{ asset('images/coca-cola.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola">
                     </div>
                 </div>
             </div>

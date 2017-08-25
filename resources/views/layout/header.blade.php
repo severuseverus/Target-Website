@@ -13,10 +13,10 @@
                 <div class="col-12 pr-0 pl-0">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item nav-option-1 active">
-                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Inicio</a>
+                            <li class="nav-item nav-option-1 @if(request()->routeIs('home')) active @endif">
+                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('home') }}">Inicio</a>
                             </li>
-                            <li class="nav-item nav-option-2">
+                            <li class="nav-item nav-option-2 @if(request()->routeIs('company')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">A empresa</a>
                             </li>
                             <li class="nav-item nav-option-3 dropdown">
@@ -39,13 +39,13 @@
                                     <a class="dropdown-item py-sm-3 py-md-2 p-2 px-md-3 px-sm-5" href="#">Parceiros Tecnológicos</a>
                                 </div>
                             </li>
-                            <li class="nav-item nav-option-5">
-                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Clientes</a>
+                            <li class="nav-item nav-option-5 @if(request()->routeIs('customers')) active @endif">
+                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('customers') }}">Clientes</a>
                             </li>
-                            <li class="nav-item nav-option-6">
+                            <li class="nav-item nav-option-6 @if(request()->routeIs('cases')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Cases</a>
                             </li>
-                            <li class="nav-item nav-option-7">
+                            <li class="nav-item nav-option-7 @if(request()->routeIs('contact')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Contato</a>
                             </li>
                         </ul>

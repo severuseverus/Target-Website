@@ -13,15 +13,37 @@
 html, body, .nav-wrapper {
   background-color: #ffffff;
   font-family: "Open Sans";
+  box-shadow: 0px 0px 15px #888888;
 }
 
 .fill-width {
   width: 100%;
 }
 
+.breadcrumb-item+.breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  color: #456389;
+  content: ">";
+}
+
+.breadcrumb-item > a{
+  color: #456389;
+
+  &:hover {
+    color: #5d81af;
+    text-decoration: none;
+  }
+}
+
+.breadcrumb {
+  background-color: #ffffff;
+}
+
 .dropdown-menu.show {
   display: flex;
-  margin: 13px 0px 0px -20px;
+  margin: -1px 0px 0px -20px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -43,7 +65,7 @@ html, body, .nav-wrapper {
 }
 
 .nav-wrapper {
-  height: 105px;
+  height: 130px;
 
   @media screen and (max-width: $break-medium) {
     width: 100%;
@@ -113,7 +135,7 @@ html, body, .nav-wrapper {
         content: '';
         display: block;
         height: 5px;
-        margin-top: 8px;
+        margin-top: 33px;
         width: 120%;
       }
     }
@@ -280,6 +302,25 @@ html, body, .nav-wrapper {
   padding-left: 0px !important;
 }
 
+.banner-title {
+  border: $cta-border solid 4px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  background-color: transparent;
+  color: $text-color;
+  font-size: 21px;
+  letter-spacing: 6px;
+  padding: 8px;
+  width: 264px;
+  display: inline-block;
+  align-self: center;
+  font-weight: bolder;
+  text-align: center;
+}
+
 .cta-button {
   border: $cta-border solid 6px;
   text-decoration: none;
@@ -296,6 +337,7 @@ html, body, .nav-wrapper {
   display: inline-block;
   align-self: center;
   font-weight: bold;
+  text-align: center;
 
   &:hover {
     border: $cta-border-hover solid 6px;
@@ -307,6 +349,7 @@ html, body, .nav-wrapper {
     font-size: 21px;
     padding: 8px 20px;
     color: $text-color;
+    text-align: center;
   }
 
   @media screen and (max-width: $break-medium) {
