@@ -1,0 +1,37 @@
+.network-infrastructure {
+  background-color: #1f405f;
+  height: 377px;
+}
+
+.network-infrastructure .banner-title {
+  margin-top: 202px;
+  padding: 25px 0px;
+  width: 913px;
+  font-size: 29px;
+  letter-spacing: 16px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 123px;
+  height: 123px;
+  border: 6px solid #1f405f;
+}
+
+.margin-circle {
+  margin-top: 35px;
+}
+
+.margin-paragraph {
+  margin-bottom: 61px;
+}
+
+.network-infrastructure-content p {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+.network-infrastructure-content .content-paragraph {
+  letter-spacing: 2px;
+}
+

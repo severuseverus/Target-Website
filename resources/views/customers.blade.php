@@ -14,13 +14,15 @@
     </section>
     <section class="customers-content content">
         <ol class="breadcrumb pt-1 pl-md-0 pl-sm-2">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Library</a></li>
-            <li class="breadcrumb-item active">Data</li>
+            <li class="breadcrumb-item"><a href="{{ route('home') }}">Inicio</a></li>
+            <li class="breadcrumb-item"><a href="#">Parceiros</a></li>
+            <li class="breadcrumb-item active">Parceiros Tecnológicos</li>
         </ol>
         
         <p class="text-justify">
-            Lorem ipsum vehicula ipsum fermentum mi lacinia suspendisse sit pellentesque leo, amet inceptos sodales nibh lorem vestibulum nec tellus aliquam, luctus blandit auctor ligula platea facilisis donec pharetra varius.
+            Lorem ipsum vehicula ipsum fermentum mi lacinia suspendisse sit pellentesque leo,
+            amet inceptos sodales nibh lorem vestibulum nec tellus aliquam, luctus blandit
+            auctor ligula platea facilisis donec pharetra varius.
         </p>
         
         <p class="text-justify">

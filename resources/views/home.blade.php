@@ -29,7 +29,7 @@
             <a href="javascript:void(0)" class="cta-button">Clique aqui</a>
         </div>
     </section>
-    <section class="services content remove-padding-left remove-padding-right">
+    <section class="services content px-0">
         <div class="section-content slider">
             <div class="slider-item">
                 <h3 class="services-slide-title text-uppercase">

@@ -7,3 +7,7 @@ Route::get('/', function () {
 Route::get('/clientes', function () {
     return view('customers');
 })->name('customers');
+
+Route::get('/infraestrutura-de-redes', function () {
+    return view('network-infrastructure');
+})->name('network-infrastructure');

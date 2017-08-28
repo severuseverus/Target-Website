@@ -479,7 +479,7 @@ body,
 }
 
 .services .slider-item {
-  padding: 0px 60px;
+  padding: 0 122px;
 }
 
 .partners {
@@ -631,5 +631,9 @@ body,
 
 .m-t-37 {
   margin-top: 37px;
+}
+
+.content-paragraph {
+  width: 475px;
 }
 

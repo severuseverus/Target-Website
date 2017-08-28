@@ -23,8 +23,8 @@
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link dropdown-toggle" href="" id="solutions-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Soluções
                                 </a>
-                                <div class="dropdown-menu pb-0 pt-0" aria-labelledby="solutions-items">
-                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Infraestrutura de Redes</a>
+                                <div class="dropdown-menu pb-0 pt-0 @if(request()->routeIs("network-infrastructure")) @endif" aria-labelledby="solutions-items">
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('network-infrastructure') }}">Infraestrutura de Redes</a>
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Rede Elétrica</a>
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Segurança Eletrônica</a>
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Telecomunicações</a>
