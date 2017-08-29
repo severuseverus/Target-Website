@@ -226,7 +226,7 @@ html, body, .nav-wrapper {
 
 .home-banner {
   text-align: center;
-  padding: 148px 84px 13px 68px;
+  padding: 148px 0px 13px 0px;
   height: 639px;
   color: $text-color;
   font-size: 27px;
@@ -240,6 +240,8 @@ html, body, .nav-wrapper {
   @media screen and (max-width: $break-medium) {
     font-size: 12px!important;
     letter-spacing: 8px;
+    height: auto;
+    padding: 78px 0px 13px 0px;
 
     .cta-button {
       margin-top: 35px;
@@ -285,6 +287,7 @@ html, body, .nav-wrapper {
 
   @media screen and (max-width: $break-medium) {
     font-size: 12px;
+    height: auto;
   }
 }
 
@@ -328,6 +331,13 @@ html, body, .nav-wrapper {
   align-self: center;
   font-weight: bolder;
   text-align: center;
+
+  @media screen and (max-width: $break-medium) {
+    padding: 10px 30px;
+    width: auto;
+    font-size: 19px;
+    letter-spacing: 8px;
+  }
 }
 
 .cta-button {
@@ -560,5 +570,9 @@ html, body, .nav-wrapper {
 }
 
 .content-paragraph {
+  letter-spacing: 2px;
+}
+
+.paragraph-width {
   width: 475px;
 }

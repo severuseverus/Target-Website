@@ -9,14 +9,14 @@
 @section('content')
     <section class="customers-banner">
         <div class="row content justify-content-center">
-            <h2 class="banner-title">Clientes</h2>
+            <h2 class="banner-title">Parceiros Comerciais</h2>
         </div>
     </section>
     <section class="customers-content content p-4 p-md-0">
         <ol class="breadcrumb pt-1 pl-md-0 pl-sm-2 d-none d-md-block">
             <li class="breadcrumb-item"><a href="{{ route('home') }}">Inicio</a></li>
             <li class="breadcrumb-item"><a href="#">Parceiros</a></li>
-            <li class="breadcrumb-item active">Parceiros Tecnológicos</li>
+            <li class="breadcrumb-item active">Parceiros Comerciais</li>
         </ol>
         
         <p class="text-justify content-paragraph margin-paragraph">

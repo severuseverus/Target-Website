@@ -11,6 +11,15 @@
   letter-spacing: 16px;
 }
 
+@media screen and (max-width: 767px) {
+  .network-infrastructure .banner-title {
+    padding: 10px 30px;
+    width: auto;
+    font-size: 19px;
+    letter-spacing: 8px;
+  }
+}
+
 .circle {
   border-radius: 50%;
   width: 123px;
@@ -29,9 +38,5 @@
 .network-infrastructure-content p {
   font-size: 15px;
   line-height: 23px;
-}
-
-.network-infrastructure-content .content-paragraph {
-  letter-spacing: 2px;
 }
 

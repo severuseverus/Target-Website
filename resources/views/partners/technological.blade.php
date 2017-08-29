@@ -9,7 +9,7 @@
 @section('content')
     <section class="customers-banner">
         <div class="row content justify-content-center">
-            <h2 class="banner-title">Clientes</h2>
+            <h2 class="banner-title">Parceiros Tecnológicos</h2>
         </div>
     </section>
     <section class="customers-content content p-4 p-md-0">
@@ -19,18 +19,18 @@
             <li class="breadcrumb-item active">Parceiros Tecnológicos</li>
         </ol>
         
-        <p class="text-justify content-paragraph margin-paragraph">
+        <p class="text-justify content-paragraph margin-paragraph ">
             Lorem ipsum vehicula ipsum fermentum mi lacinia suspendisse sit pellentesque leo,
             amet inceptos sodales nibh lorem vestibulum nec tellus aliquam, luctus blandit
             auctor ligula platea facilisis donec pharetra varius.
         </p>
         
-        <p class="text-justify content-paragraph margin-paragraph">
+        <p class="text-justify content-paragraph margin-paragraph ">
             Etiam dolor hendrerit vitae libero fusce, tristique purus rhoncus vulputate orci nisi, elit per etiam magna.
             suscipit malesuada pretium porttitor volutpat ligula mattis consectetur varius, integer platea himenaeos porttitor mi scelerisque.
         </p>
         
-        <p class="text-justify content-paragraph margin-paragraph">
+        <p class="text-justify content-paragraph margin-paragraph ">
             Tempor dapibus cursus vehicula primis sagittis vivamus viverra rhoncus nulla tincidunt mattis, rhoncus in ipsum ullamcorper eu duis inceptos malesuada tempus sed sodales, magna aliquam accumsan ultricies nunc iaculis a venenatis sapien pretium.
             eros tincidunt lorem integer nostra sit commodo tincidunt tempus a curabitur vehicula, etiam mattis aptent libero mollis duis faucibus rhoncus donec eu pellentesque gravida, sem imperdiet ligula felis torquent augue libero lobortis nunc mi.
             fermentum scelerisque sodales lorem fermentum porttitor phasellus, ante ornare nibh molestie class.

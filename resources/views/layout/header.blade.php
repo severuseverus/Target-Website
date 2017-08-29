@@ -19,24 +19,24 @@
                             <li class="nav-item nav-option-2 @if(request()->routeIs('company')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">A empresa</a>
                             </li>
-                            <li class="nav-item nav-option-3 dropdown">
+                            <li class="nav-item nav-option-3 dropdown @if(request()->routeIs("network-infrastructure") || request()->routeIs("electric-networks") || request()->routeIs("electronic-security") || request()->routeIs("telecommunications")) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link dropdown-toggle" href="" id="solutions-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Soluções
                                 </a>
-                                <div class="dropdown-menu pb-0 pt-0 @if(request()->routeIs("network-infrastructure")) @endif" aria-labelledby="solutions-items">
+                                <div class="dropdown-menu pb-0 pt-0" aria-labelledby="solutions-items">
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('network-infrastructure') }}">Infraestrutura de Redes</a>
-                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Rede Elétrica</a>
-                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Segurança Eletrônica</a>
-                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="#">Telecomunicações</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('electric-networks') }}">Rede Elétrica</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('electronic-security') }}">Segurança Eletrônica</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('telecommunications') }}">Telecomunicações</a>
                                 </div>
                             </li>
-                            <li class="nav-item nav-option-4 dropdown">
+                            <li class="nav-item nav-option-4 dropdown @if(request()->routeIs('commercial-partners') || request()->routeIs('technological-partners')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link dropdown-toggle" href="" id="partners-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Parceiros
                                 </a>
                                 <div class="dropdown-menu pb-0 pt-0" aria-labelledby="partners-items">
-                                    <a class="dropdown-item py-sm-3 py-md-2 p-2 px-md-3 px-sm-5" href="#">Parceiros Comerciais</a>
-                                    <a class="dropdown-item py-sm-3 py-md-2 p-2 px-md-3 px-sm-5" href="#">Parceiros Tecnológicos</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 p-2 px-md-3 px-sm-5" href="{{ route('commercial-partners') }}">Parceiros Comerciais</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 p-2 px-md-3 px-sm-5" href="{{ route('technological-partners') }}">Parceiros Tecnológicos</a>
                                 </div>
                             </li>
                             <li class="nav-item nav-option-5 @if(request()->routeIs('customers')) active @endif">
@@ -46,7 +46,7 @@
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Cases</a>
                             </li>
                             <li class="nav-item nav-option-7 @if(request()->routeIs('contact')) active @endif">
-                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Contato</a>
+                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('contact') }}">Contato</a>
                             </li>
                         </ul>
                     </div>

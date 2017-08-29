@@ -285,7 +285,7 @@ body,
 
 .home-banner {
   text-align: center;
-  padding: 148px 84px 13px 68px;
+  padding: 148px 0px 13px 0px;
   height: 639px;
   color: #fefefe;
   font-size: 27px;
@@ -301,6 +301,8 @@ body,
   .home-banner {
     font-size: 12px !important;
     letter-spacing: 8px;
+    height: auto;
+    padding: 78px 0px 13px 0px;
   }
 
   .home-banner .cta-button {
@@ -349,6 +351,7 @@ body,
 @media screen and (max-width: 767px) {
   .make-budget {
     font-size: 12px;
+    height: auto;
   }
 }
 
@@ -391,6 +394,15 @@ body,
       align-self: center;
   font-weight: bolder;
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .banner-title {
+    padding: 10px 30px;
+    width: auto;
+    font-size: 19px;
+    letter-spacing: 8px;
+  }
 }
 
 .cta-button {
@@ -634,6 +646,10 @@ body,
 }
 
 .content-paragraph {
+  letter-spacing: 2px;
+}
+
+.paragraph-width {
   width: 475px;
 }
 

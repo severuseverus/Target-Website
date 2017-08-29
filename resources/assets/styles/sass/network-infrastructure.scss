@@ -11,6 +11,13 @@
     width: 913px;
     font-size: 29px;
     letter-spacing: 16px;
+
+    @media screen and (max-width: $break-medium) {
+      padding: 10px 30px;
+      width: auto;
+      font-size: 19px;
+      letter-spacing: 8px;
+    }
   }
 }
 
@@ -35,8 +42,5 @@
   p {
     font-size: 15px;
     line-height: 23px;
-  }
-  .content-paragraph {
-    letter-spacing: 2px;
   }
 }
