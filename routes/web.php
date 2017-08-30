@@ -37,5 +37,5 @@ Route::get('cases', function () {
 })->name('cases');
 
 Route::get('contato', function () {
-    return "<h1>Contato</h1>";
+    return view('contact');
 })->name('contact');

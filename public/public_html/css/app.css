@@ -7,6 +7,21 @@ body,
           box-shadow: 0px 0px 15px #888888;
 }
 
+label {
+  color: #194687;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+textarea,
+input {
+  border: 1px solid #194687 !important;
+}
+
+input {
+  height: 47px;
+}
+
 .fill-width {
   width: 100%;
 }
@@ -355,30 +370,6 @@ body,
   }
 }
 
-.padding-8 {
-  padding: 8px;
-}
-
-.rm-padding {
-  padding: 0px !important;
-}
-
-.rm-padding-top {
-  padding-top: 0px !important;
-}
-
-.rm-padding-right {
-  padding-right: 0px !important;
-}
-
-.rm-padding-bottom {
-  padding-bottom: 0px !important;
-}
-
-.rm-padding-left {
-  padding-left: 0px !important;
-}
-
 .banner-title {
   border: #60cdb0 solid 4px;
   text-decoration: none;
@@ -543,33 +534,12 @@ body,
   border-radius: 10px;
 }
 
-.leads .btn {
-  padding: .85rem 1.4rem;
-  border-radius: 10px;
-}
-
 @media screen and (max-width: 767px) {
   .leads {
     padding: 25px 20px 25px 20px;
     text-align: center;
     font-size: 15px !important;
   }
-
-  .leads .btn {
-    margin-top: 15px;
-    width: 100%;
-  }
-}
-
-.leads .btn-assign {
-  background-color: #107dff;
-  border-color: #107dff;
-  color: #fefefe;
-}
-
-.leads .btn-assign:hover {
-  background-color: #1072db;
-  border-color: #1072DB;
 }
 
 .footer {
@@ -655,5 +625,55 @@ body,
 
 .breadcrumb {
   font-size: 12px;
+}
+
+.banner {
+  text-align: center;
+  padding: 148px 0px 13px 0px;
+  height: 639px;
+  color: #fefefe;
+  font-size: 27px;
+  letter-spacing: 16px;
+  background: #107dff;
+}
+
+.banner .cta-button {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    font-size: 12px !important;
+    letter-spacing: 8px;
+    height: auto;
+    padding: 78px 0px 13px 0px;
+  }
+
+  .banner .cta-button {
+    margin-top: 35px;
+  }
+}
+
+.btn {
+  padding: .85rem 1.4rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .btn .btn {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+.btn-assign {
+  background-color: #107dff;
+  border-color: #107dff;
+  color: #fefefe;
+}
+
+.btn-assign:hover {
+  background-color: #1072db;
+  border-color: #1072DB;
 }
 

@@ -16,6 +16,19 @@ html, body, .nav-wrapper {
   box-shadow: 0px 0px 15px #888888;
 }
 
+label {
+  color: $blue;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+
+textarea, input {
+  border: 1px solid $blue !important;
+}
+input {
+  height: 47px;
+}
+
 .fill-width {
   width: 100%;
 }
@@ -291,30 +304,6 @@ html, body, .nav-wrapper {
   }
 }
 
-.padding-8 {
-  padding: 8px;
-}
-
-.rm-padding {
-  padding: 0px !important;
-}
-
-.rm-padding-top {
-  padding-top: 0px !important;
-}
-
-.rm-padding-right {
-  padding-right: 0px !important;
-}
-
-.rm-padding-bottom {
-  padding-bottom: 0px !important;
-}
-
-.rm-padding-left {
-  padding-left: 0px !important;
-}
-
 .banner-title {
   border: $cta-border solid 4px;
   text-decoration: none;
@@ -473,31 +462,10 @@ html, body, .nav-wrapper {
     border-radius: 10px;
   }
 
-  .btn {
-    padding: .85rem 1.4rem;
-    border-radius: 10px;
-  }
-
   @media screen and (max-width: $break-medium) {
     padding: 25px 20px 25px 20px;
     text-align: center;
     font-size: 15px!important;
-
-    .btn {
-      margin-top: 15px;
-      width: 100%;
-    }
-  }
-
-  .btn-assign {
-    background-color: $blue-light;
-    border-color: $blue-light;
-    color: $text-color;
-
-    &:hover {
-      background-color: #1072db;
-      border-color: #1072DB;
-    }
   }
 }
 
@@ -579,4 +547,52 @@ html, body, .nav-wrapper {
 
 .breadcrumb {
   font-size: 12px;
+}
+
+.banner {
+  text-align: center;
+  padding: 148px 0px 13px 0px;
+  height: 639px;
+  color: $text-color;
+  font-size: 27px;
+  letter-spacing: 16px;
+  background: $blue-light;
+
+  .cta-button {
+    margin-top: 60px;
+  }
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 12px!important;
+    letter-spacing: 8px;
+    height: auto;
+    padding: 78px 0px 13px 0px;
+
+    .cta-button {
+      margin-top: 35px;
+    }
+  }
+}
+
+.btn {
+  padding: .85rem 1.4rem;
+  border-radius: 10px;
+
+  @media screen and (max-width: $break-medium) {
+    .btn {
+      margin-top: 15px;
+      width: 100%;
+    }
+  }
+}
+
+.btn-assign {
+  background-color: $blue-light;
+  border-color: $blue-light;
+  color: $text-color;
+
+  &:hover {
+    background-color: #1072db;
+    border-color: #1072DB;
+  }
 }

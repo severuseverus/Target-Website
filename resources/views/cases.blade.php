@@ -35,8 +35,8 @@
             volutpat malesuada. Nam rutrum lacus in justo rhoncus pretium.
         </p>
         
-        <div class="row justify-content-center">
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+        <div class="row justify-content-center mb-3">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/cetelem.png') }}" height="56px" alt="">
@@ -46,7 +46,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lobortis vehicula.
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/coca-cola.png') }}" height="56px" alt="">
@@ -56,7 +56,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lobortis vehicula.
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/heineken.png') }}" height="56px" alt="">
@@ -66,7 +66,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lobortis vehicula.
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/telhanorte.png') }}" height="56px" alt="">
@@ -76,7 +76,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lobortis vehicula.
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/hp.png') }}" height="56px" alt="">
@@ -86,7 +86,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lobortis vehicula.
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/saint-gobain.png') }}" height="56px" alt="">
@@ -96,7 +96,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lobortis vehicula.
                 </div>
             </div>
-            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 mb-md-0 px-2 py-5">
+            <div class="col-md-4 col-12 mt-md-5 mt-sm-0 mb-5 px-2 py-4">
                 <div class="col-12 mb-3 d-flex justify-content-center">
                     <div class="col-md-12 col-5 d-flex justify-content-center">
                         <img src="{{ asset('images/partners/femsa.png') }}" height="56px" alt="">

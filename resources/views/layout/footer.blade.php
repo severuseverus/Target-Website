@@ -50,13 +50,13 @@
                     <div class="row">
                         <div class="col-12">
                             <ul class="footer-navigation">
-                                <li>Início</li>
-                                <li>A empresa</li>
-                                <li>Soluções</li>
-                                <li>Parceiros</li>
-                                <li>Clientes</li>
-                                <li>Cases</li>
-                                <li>Contato</li>
+                                <li><a href="{{ route('home') }}">Início</a></li>
+                                <li><a href="#">A empresa</a></li>
+                                <li><a href="{{ route('network-infrastructure') }}">Soluções</a></li>
+                                <li><a href="{{ route('commercial-partners') }}">Parceiros</a></li>
+                                <li><a href="{{ route('customers') }}">Clientes</a></li>
+                                <li><a href="{{ route('cases') }}">Cases</a></li>
+                                <li><a href="{{ route('contact') }}">Contato</a></li>
                             </ul>
                         </div>
                     </div>

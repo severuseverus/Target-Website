@@ -43,7 +43,7 @@
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('customers') }}">Clientes</a>
                             </li>
                             <li class="nav-item nav-option-6 @if(request()->routeIs('cases')) active @endif">
-                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">Cases</a>
+                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('cases') }}">Cases</a>
                             </li>
                             <li class="nav-item nav-option-7 @if(request()->routeIs('contact')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('contact') }}">Contato</a>
