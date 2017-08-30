@@ -32,6 +32,10 @@ Route::get('/parceiros-tecnologicos', function () {
     return view('partners.technological');
 })->name('technological-partners');
 
-Route::get('contact', function () {
+Route::get('cases', function () {
+    return view('cases');
+})->name('cases');
+
+Route::get('contato', function () {
     return "<h1>Contato</h1>";
 })->name('contact');
