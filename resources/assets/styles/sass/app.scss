@@ -239,7 +239,6 @@ input {
 
 .home-banner {
   text-align: center;
-  padding: 148px 0px 13px 0px;
   height: 639px;
   color: $text-color;
   font-size: 27px;
@@ -250,11 +249,70 @@ input {
     margin-top: 60px;
   }
 
+  .section-content {
+    height: 100%;
+
+    .slick-list {
+      height: 100%;
+
+      .slick-track {
+        height: 100%;
+
+        .slider-item {
+          padding: 148px 0px !important;
+          height: 100%;
+          background-size: 142%;
+
+          @media screen and (max-width: $break-medium) {
+            padding: 100px 0px !important;
+          }
+        }
+
+        .slider-item-1 {
+          background: url('/images/home/banners/desktop/slider_item_1.png') center no-repeat;
+
+          @media screen and (max-width: $break-medium) {
+            background: url('/images/home/banners/mobile/slider_item_1.png') center no-repeat;
+          }
+        }
+
+        .slider-item-2 {
+          background: url('/images/home/banners/desktop/slider_item_2.png') center no-repeat;
+
+          @media screen and (max-width: $break-medium) {
+            background: url('/images/home/banners/mobile/slider_item_2.png') center no-repeat;
+          }
+        }
+      }
+    }
+  }
+
+  .slick-dots {
+    bottom: 15px;
+
+    @media screen and (max-width: $break-medium) {
+      bottom: 15px;
+    }
+  }
+
   @media screen and (max-width: $break-medium) {
     font-size: 12px!important;
     letter-spacing: 8px;
     height: auto;
-    padding: 78px 0px 13px 0px;
+
+    .slider-item {
+      padding: 78px 0px 13px 0px;
+      height: 100%;
+    }
+
+    .slider-item-1 {
+
+    }
+
+    .slider-item-2 {
+      background: url('/images/home/banners/mobile/slider_item_2.png') center no-repeat;
+      background-size: 100%;
+    }
 
     .cta-button {
       margin-top: 35px;
@@ -263,12 +321,6 @@ input {
 }
 
 .slick-dots {
-  margin-top: 117px;
-  position: relative;
-
-  @media screen and (max-width: $break-medium) {
-    margin-top: 18px;
-  }
 
   li button:before {
     font-size: 9px;
@@ -383,6 +435,8 @@ input {
   }
 
   @media screen and (max-width: $break-medium) {
+    padding: 45px 0 10px 0;
+
     .services-slide-title {
       font-size: 20px;
     }
@@ -411,7 +465,11 @@ input {
   }
 
   .slider-item {
+    padding: 148px 0px 13px 0px;
     padding: 0 122px;
+    @media screen and (max-width: $break-medium) {
+      padding: 0 20px;
+    }
   }
 }
 
@@ -443,6 +501,7 @@ input {
   }
 
   .slider-item {
+    padding: 148px 0px 13px 0px;
     padding: 0px 60px;
   }
 }
@@ -577,13 +636,6 @@ input {
 .btn {
   padding: .85rem 1.4rem;
   border-radius: 10px;
-
-  @media screen and (max-width: $break-medium) {
-    .btn {
-      margin-top: 15px;
-      width: 100%;
-    }
-  }
 }
 
 .btn-assign {
@@ -595,4 +647,10 @@ input {
     background-color: #1072db;
     border-color: #1072DB;
   }
+
+  @media screen and (max-width: $break-medium) {
+    margin-top: 10px;
+    width: 100%;
+  }
 }
+

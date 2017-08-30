@@ -3,19 +3,13 @@
 @section('content')
     <section class="home-banner">
         <div class="section-content slider">
-            <div class="slider-item">
+            <div class="slider-item slider-item-1">
                 <span>Somos os melhores em</span><br>
                 <span><strong>infraestrutura de redes</strong></span><br>
                 <span>para a sua empresa</span><br>
                 <a href="javascript:void(0)" class="cta-button">Saiba mais</a>
             </div>
-            <div class="slider-item">
-                <span>Somos os melhores em</span><br>
-                <span><strong>infraestrutura de redes</strong></span><br>
-                <span>para a sua empresa</span><br>
-                <a href="javascript:void(0)" class="cta-button">Saiba mais</a>
-            </div>
-            <div class="slider-item">
+            <div class="slider-item slider-item-2">
                 <span>Somos os melhores em</span><br>
                 <span><strong>infraestrutura de redes</strong></span><br>
                 <span>para a sua empresa</span><br>
@@ -71,7 +65,7 @@
     </section>
     <section class="partners content">
         <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-12 col-md-6 px-3 px-md-0">
                 <h5 class="text-uppercase text-blue font-weight-bold partners-title">Nossos principais clientes</h5>
                 <hr class="hr-blue mt-0">
             </div>
