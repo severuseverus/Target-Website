@@ -9,7 +9,6 @@ body,
 
 label {
   color: #194687;
-  font-weight: bold;
   margin-bottom: 0rem;
 }
 
@@ -45,6 +44,7 @@ input {
 
 .breadcrumb {
   background-color: #ffffff;
+  font-size: 0.8rem;
 }
 
 .dropdown-menu.show {
@@ -557,6 +557,10 @@ input {
   letter-spacing: 4px;
 }
 
+.partners ul {
+  list-style: none;
+}
+
 .partners .slick-dots {
   margin-top: 0px;
   position: relative;
@@ -578,8 +582,7 @@ input {
 }
 
 .partners .slider-item {
-  padding: 148px 0px 13px 0px;
-  padding: 0px 60px;
+  padding: 0;
 }
 
 .leads {
@@ -686,10 +689,6 @@ input {
   width: 475px;
 }
 
-.breadcrumb {
-  font-size: 12px;
-}
-
 .banner {
   text-align: center;
   padding: 148px 0px 13px 0px;
@@ -738,5 +737,48 @@ input {
     margin-top: 10px;
     width: 100%;
   }
+}
+
+.btn-assign-dark {
+  background-color: #194687;
+  border-color: #194687;
+  color: #fefefe;
+}
+
+.btn-assign-dark:hover {
+  background-color: #1a5596;
+  border-color: #1a5596;
+}
+
+@media screen and (max-width: 767px) {
+  .btn-assign-dark {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.footer-navigation .footer-nav-link {
+  color: #ffffff;
+}
+
+.footer-navigation .footer-nav-link:hover {
+  color: #107dff;
+  text-decoration: none;
+}
+
+.bg-blue {
+  background: #194687;
+}
+
+.bg-blue-light {
+  background: #107dff;
+}
+
+.bg-blue-dark {
+  background: #1f405f;
+}
+
+.text-color-default {
+  color: #fefefe;
 }
 

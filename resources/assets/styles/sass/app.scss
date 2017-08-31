@@ -18,13 +18,13 @@ html, body, .nav-wrapper {
 
 label {
   color: $blue;
-  font-weight: bold;
   margin-bottom: 0rem;
 }
 
 textarea, input {
   border: 1px solid $blue !important;
 }
+
 input {
   height: 47px;
 }
@@ -52,6 +52,7 @@ input {
 
 .breadcrumb {
   background-color: #ffffff;
+  font-size: 0.8rem;
 }
 
 .dropdown-menu.show {
@@ -482,6 +483,10 @@ input {
     letter-spacing: 4px;
   }
 
+  ul {
+    list-style: none;
+  }
+
   .slick-dots {
     margin-top: 0px;
     position: relative;
@@ -501,8 +506,7 @@ input {
   }
 
   .slider-item {
-    padding: 148px 0px 13px 0px;
-    padding: 0px 60px;
+    padding: 0;
   }
 }
 
@@ -604,10 +608,6 @@ input {
   width: 475px;
 }
 
-.breadcrumb {
-  font-size: 12px;
-}
-
 .banner {
   text-align: center;
   padding: 148px 0px 13px 0px;
@@ -654,3 +654,45 @@ input {
   }
 }
 
+.btn-assign-dark {
+  background-color: #194687;
+  border-color: #194687;
+  color: $text-color;
+
+  &:hover {
+    background-color: #1a5596;
+    border-color: #1a5596;
+  }
+
+  @media screen and (max-width: $break-medium) {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.footer-navigation {
+  .footer-nav-link {
+    color: #ffffff;
+
+    &:hover {
+      color: $blue-light;
+      text-decoration: none;
+    }
+  }
+}
+
+.bg-blue {
+  background: $blue;
+}
+
+.bg-blue-light {
+  background: $blue-light;
+}
+
+.bg-blue-dark {
+  background: $blue-dark;
+}
+
+.text-color-default {
+  color: $text-color;
+}

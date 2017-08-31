@@ -16,6 +16,7 @@
         <link href="{{ asset('plugins/bootstrap/css/bootstrap-reboot.min.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('plugins/slick/slick.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('plugins/slick/slick-theme.css') }}" rel="stylesheet" type="text/css">
+        <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
     @show
 </head>

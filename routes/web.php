@@ -1,6 +1,10 @@
 <?php
 
 Route::get('/', function () {
+    return view('temporary-home');
+})->name('tpm-home');
+
+Route::get('/new', function () {
     return view('home');
 })->name('home');
 
