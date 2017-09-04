@@ -72,24 +72,24 @@ input {
 }
 
 .nav-wrapper {
-  height: 211px;
+  height: 106px;
 }
 
 @media screen and (max-width: 767px) {
   .nav-wrapper {
     width: 100%;
-    height: 69px;
+    height: 80px;
   }
 }
 
 .wrapper {
-  padding-top: 211px;
+  padding-top: 106px;
 }
 
 @media screen and (max-width: 767px) {
   .wrapper {
     width: 100%;
-    padding-top: 69px;
+    padding-top: 80px;
   }
 }
 
@@ -191,11 +191,11 @@ input {
 
 @media screen and (min-width: 767px) {
   .navbar .margin-nav-content {
-    margin-top: 47px;
+    margin-top: 17px;
   }
 
   .navbar .margin-nav-content .margin-nav-items {
-    margin-top: 34px;
+    margin-top: 19px;
   }
 }
 
@@ -230,7 +230,7 @@ input {
 
 @media screen and (max-width: 767px) {
   .navbar-toggler {
-    margin-top: 6px;
+    margin-top: 11px;
   }
 }
 
@@ -492,7 +492,6 @@ input {
 
 .services {
   text-align: center;
-  padding: 96px 122px;
   color: #fefefe;
   letter-spacing: 4px;
   background: #107dff;
@@ -503,10 +502,6 @@ input {
 }
 
 @media screen and (max-width: 767px) {
-  .services {
-    padding: 45px 0 10px 0;
-  }
-
   .services .services-slide-title {
     font-size: 20px;
   }
@@ -517,8 +512,7 @@ input {
 }
 
 .services .slick-dots {
-  margin-top: 0px;
-  position: relative;
+  bottom: 5px;
 }
 
 @media screen and (max-width: 767px) {
@@ -537,13 +531,12 @@ input {
 }
 
 .services .slider-item {
-  padding: 148px 0px 13px 0px;
-  padding: 0 122px;
+  padding: 96px 122px 96px 122px;
 }
 
 @media screen and (max-width: 767px) {
   .services .slider-item {
-    padding: 0 20px;
+    padding: 45px 20px 60px 20px;
   }
 }
 
@@ -780,5 +773,17 @@ input {
 
 .text-color-default {
   color: #fefefe;
+}
+
+.maps-address {
+  background: #194687;
+  margin-bottom: -17.5px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .maps-address {
+    margin-bottom: -35.5px;
+  }
 }
 

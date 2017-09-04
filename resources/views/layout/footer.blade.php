@@ -1,7 +1,7 @@
 <footer style="margin-top: 20px">
     <section class="leads">
         <div class="content">
-            <span style="font-size: 18px;letter-spacing: 3px;">Receba em primeira mão as novidades da <strong>Target</strong> e principáis notícias.</span>
+            <span style="font-size: 18px;letter-spacing: 3px;">Receba em primeira mão as novidades da <strong>Target</strong> e principais notícias.</span>
             <form action="" method="POST">
                 <div class="form-group row">
                     <div class="col-md-5 col-6">
@@ -68,19 +68,19 @@
                     <div class="col-7">
                         <ul>
                             <li>Target CNPJ: 00.000.000/0000-00</li>
-                            <li>Avenida Amador Bueno da Veiga, 2299, Penha de França - SP - CEP: 03636-100</li>
+                            <li>Avenida Amador Bueno da Veiga, 2299, Penha de França - SP - CEP: 03635-001</li>
                             <li>Copyright  {{ date('Y') }} - Target</li>
                         </ul>
                     </div>
                     <div class="col-5">
                         <ul class="float-right d-flex align-content-center">
                             <li class="align-self-center" style="margin-right: 20px">
-                                <a href="javascript:void(0)">
+                                <a href="https://www.facebook.com/pg/targetteleinformatica.com.br/about/?ref=page_internal">
                                     <img src="{{ asset('images/logo_facebook.png') }}" class="facebook-icon" alt="Facebook">
                                 </a>
                             </li>
                             <li class="align-self-center">
-                                <a href="javascript:void(0)">
+                                <a href="http://www.newmove.com.br">
                                     <img src="{{ asset('images/logo_newmove.png') }}" class="newmove-icon" alt="New Move">
                                 </a>
                             </li>

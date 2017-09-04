@@ -31,37 +31,37 @@
     </section>
     <section class="services content px-0">
         <div class="section-content slider">
-            <div class="slider-item">
+            <div class="slider-item" style="background: url({{ asset('images/home/banners/desktop/redes_eletricas.png') }});">
                 <h3 class="services-slide-title text-uppercase">
-                    INFRAESTRUTURA DE REDES
+                    Redes Elétricas
                 </h3>
                 <p class="services-slide-description text-justify text-uppercase">
                     A TARGET executa projetos e implantações de rede
-                    estruturada CAT5E e CAT7, dados, voz e imagens,
+                    estruturada CAT5E, CAT6 e CAT7, dados, voz e imagens,
                     seguindo as diretrizes das normas nacionais e
                     internacionais.
                 </p>
                 <a href="javascript:void(0)" class="cta-button">Saiba mais - serviços</a>
             </div>
-            <div class="slider-item">
+            <div class="slider-item" style="background: url({{ asset('images/home/banners/desktop/seguranca_eletronica.png') }});">
                 <h3 class="services-slide-title text-uppercase">
-                    INFRAESTRUTURA DE REDES
+                    Segurança Eletrônica
                 </h3>
                 <p class="services-slide-description text-justify text-uppercase">
                     A TARGET executa projetos e implantações de rede
-                    estruturada CAT5E e CAT7, dados, voz e imagens,
+                    estruturada CAT5E, CAT6 e CAT7, dados, voz e imagens,
                     seguindo as diretrizes das normas nacionais e
                     internacionais.
                 </p>
                 <a href="javascript:void(0)" class="cta-button">Saiba mais - serviços</a>
             </div>
-            <div class="slider-item">
+            <div class="slider-item" style="background: url({{ asset('images/home/banners/desktop/telecomunicacoes.png') }});">
                 <h3 class="services-slide-title text-uppercase">
-                    INFRAESTRUTURA DE REDES
+                    Telecomunicações
                 </h3>
                 <p class="services-slide-description text-justify text-uppercase">
                     A TARGET executa projetos e implantações de rede
-                    estruturada CAT5E e CAT7, dados, voz e imagens,
+                    estruturada CAT5E, CAT6 e CAT7, dados, voz e imagens,
                     seguindo as diretrizes das normas nacionais e
                     internacionais.
                 </p>

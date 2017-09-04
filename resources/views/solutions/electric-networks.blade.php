@@ -19,8 +19,8 @@
             <li class="breadcrumb-item active">Redes Elétricas</li>
         </ol>
     
-        <div class="row p-4 p-md-0">
-            <div class="col-md-6 col-12">
+        <div class="row p-4 p-md-0" style="line-height: 26px;">
+            <div class="col-md-5 col-12">
                 <p class="text-justify content-paragraph margin-paragraph">
                     Lorem ipsum dolor sit amet, consectur adipiscing elit. Sed pallentesque lobortis vehicula.
                     Mauris molestie risus erat, ut egestas tortor pulvinar in. Phasellus vel sem id purus
@@ -37,6 +37,7 @@
                     volutpat malesuada. Nam rutrum lacus in justo rhoncus pretium.
                 </p>
             </div>
+            <div class="col-md-1 col-12"></div>
             <div class="col-md-6 col-12">
                 <div class="row">
                     <div class="col-12 col-md-4 d-flex d-md-block justify-content-center mb-3 mb-md-0">
@@ -64,7 +65,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top: 5rem;">
             <div class="col-md-6 col-12 text-center text-md-right">
                 Dúvidas ou interesse?
             </div>

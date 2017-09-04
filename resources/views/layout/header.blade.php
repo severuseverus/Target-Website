@@ -2,15 +2,15 @@
     <div class="nav-wrapper fixed-top">
         <nav class="navbar navbar-expand-md -bottom navbar-light fixed-top pr-0 pl-0 pb-0">
             <div class="row content fill-width margin-nav-content">
-                <div class="col-12 pl-md-0 pl-sm-4 pr-md-0 pr-sm-4">
+                <div class="col-12 col-md-3 pl-md-0 pl-sm-4 pr-md-0 pr-sm-4">
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img src="{{ asset('images/logo.png') }}" alt="Target" height="50px"></a>
+                    <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('images/logo.png') }}" alt="Target" height="50px"></a>
                 </div>
-                <div class="col-12 pr-0 pl-0 margin-nav-items">
+                <div class="col-12 col-md-9 pr-0 pl-0 margin-nav-items">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item nav-option-1 @if(request()->routeIs('home')) active @endif">

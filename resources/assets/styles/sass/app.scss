@@ -1,6 +1,5 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-
 // Variables
 @import "variables";
 
@@ -33,7 +32,7 @@ input {
   width: 100%;
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
+.breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: .5rem;
   padding-left: .5rem;
@@ -41,7 +40,7 @@ input {
   content: ">";
 }
 
-.breadcrumb-item > a{
+.breadcrumb-item > a {
   color: #456389;
 
   &:hover {
@@ -79,20 +78,20 @@ input {
 }
 
 .nav-wrapper {
-  height: 211px;
+  height: 106px;
 
   @media screen and (max-width: $break-medium) {
     width: 100%;
-    height: 69px;
+    height: 80px;
   }
 }
 
 .wrapper {
-  padding-top: 211px;
+  padding-top: 106px;
 
   @media screen and (max-width: $break-medium) {
     width: 100%;
-    padding-top: 69px;
+    padding-top: 80px;
   }
 }
 
@@ -131,10 +130,10 @@ input {
 .navbar {
   .margin-nav-content {
     @media screen and (min-width: $break-medium) {
-      margin-top: 47px;
+      margin-top: 17px;
 
       .margin-nav-items {
-        margin-top: 34px;
+        margin-top: 19px;
       }
     }
   }
@@ -171,9 +170,10 @@ input {
 
 .navbar-toggler {
   @media screen and (max-width: $break-medium) {
-    margin-top: 6px;
+    margin-top: 11px;
   }
 }
+
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='#194687' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
 }
@@ -297,7 +297,7 @@ input {
   }
 
   @media screen and (max-width: $break-medium) {
-    font-size: 12px!important;
+    font-size: 12px !important;
     letter-spacing: 8px;
     height: auto;
 
@@ -426,7 +426,6 @@ input {
 
 .services {
   text-align: center;
-  padding: 96px 122px;
   color: $text-color;
   letter-spacing: 4px;
   background: $blue-light;
@@ -436,8 +435,6 @@ input {
   }
 
   @media screen and (max-width: $break-medium) {
-    padding: 45px 0 10px 0;
-
     .services-slide-title {
       font-size: 20px;
     }
@@ -448,8 +445,7 @@ input {
   }
 
   .slick-dots {
-    margin-top: 0px;
-    position: relative;
+    bottom: 5px;
 
     @media screen and (max-width: $break-medium) {
       margin-top: 0px;
@@ -466,10 +462,9 @@ input {
   }
 
   .slider-item {
-    padding: 148px 0px 13px 0px;
-    padding: 0 122px;
+    padding: 96px 122px 96px 122px;
     @media screen and (max-width: $break-medium) {
-      padding: 0 20px;
+      padding: 45px 20px 60px 20px;
     }
   }
 }
@@ -528,7 +523,7 @@ input {
   @media screen and (max-width: $break-medium) {
     padding: 25px 20px 25px 20px;
     text-align: center;
-    font-size: 15px!important;
+    font-size: 15px !important;
   }
 }
 
@@ -567,7 +562,7 @@ input {
     padding-left: 0;
   }
 
-  .footer-navigation > li{
+  .footer-navigation > li {
     margin-bottom: 2px;
   }
 
@@ -622,7 +617,7 @@ input {
   }
 
   @media screen and (max-width: $break-medium) {
-    font-size: 12px!important;
+    font-size: 12px !important;
     letter-spacing: 8px;
     height: auto;
     padding: 78px 0px 13px 0px;
@@ -695,4 +690,14 @@ input {
 
 .text-color-default {
   color: $text-color;
+}
+
+.maps-address {
+  background: #194687;
+  margin-bottom: -17.5px;
+  position: relative;
+
+  @media screen and (max-width: $break-medium) {
+    margin-bottom: -35.5px;
+  }
 }
