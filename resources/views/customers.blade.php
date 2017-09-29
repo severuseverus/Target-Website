@@ -12,7 +12,7 @@
             <h2 class="banner-title">Clientes</h2>
         </div>
     </section>
-    <section class="customers-content content p-4 p-md-0">
+    <section class="customers-content content p-3 p-md-0">
         <ol class="breadcrumb pt-1 pl-md-0 pl-sm-2 d-none d-md-block">
             <li class="breadcrumb-item"><a href="{{ route('home') }}">Inicio</a></li>
             <li class="breadcrumb-item"><a href="#">Parceiros</a></li>
@@ -37,7 +37,7 @@
         </p>
         
         <div class="row justify-content-center">
-            <div class="col-md-3 col-12 mt-md-5 d-flex d-md-block justify-content-center mt-sm-0 mb-5 mb-md-0 text-center px-2 align-self-center">
+            <div class="col-md-3 col-12 mt-5 d-flex d-md-block justify-content-center mb-5 mb-md-0 text-center px-2 align-self-center">
                 <div class="col-5 col-md-12">
                     <img src="{{ asset('images/partners/cetelem.png') }}" width="100%" alt="">
                 </div>

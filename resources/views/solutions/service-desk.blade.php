@@ -9,37 +9,28 @@
 @section('content')
     <section class="network-infrastructure">
         <div class="row content justify-content-center content">
-            <h2 class="banner-title text-uppercase">Segurança Eletrônica</h2>
+            <h2 class="banner-title text-uppercase">Service Desk</h2>
         </div>
     </section>
     <section class="network-infrastructure-content content">
         <ol class="breadcrumb pt-1 pl-md-0 pl-sm-2 d-none d-md-block">
             <li class="breadcrumb-item"><a href="{{ route('home') }}">início</a></li>
             <li class="breadcrumb-item"><a href="#">Soluções</a></li>
-            <li class="breadcrumb-item active">Segurança Eletrônica</li>
+            <li class="breadcrumb-item active">Service Desk</li>
         </ol>
     
         <div class="row p-4 p-md-0">
             <div class="col-md-5 col-12">
                 <p class="text-justify content-paragraph margin-paragraph">
-                    A TARGET tem se destacado no mercado por oferecer a melhor infraestrutura e qualidade de
-                    instalação, apresentando soluções personalizadas e inteligentes em segurança eletrônica.
+                    O Service Desk da Target é altamente capacitado, sendo uma solução completa
+                    para gerenciamento e monitoramento da sua estrutura de TI.
                 </p>
                 <p class="text-justify content-paragraph margin-paragraph">
-                    Nosso corpo técnico é composto por engenheiros e profissionais capacitados para oferecer
-                    soluções que atendam a todas as normas e exigências técnicas legais em:
+                    Após abertura de uma ocorrência, nossos técnicos especializados são acionados
+                    para análise e rápida solução do problema, seja remotamente ou em campo.
                 </p>
-                <p class="text-justify content-paragraph">
-                    <ul>
-                        <li>Sistemas eletrônicos de detecção de intrusão (alarmes);</li>
-                        <li>Circuito fechado de TV (CFTV);</li>
-                        <li>Controle de acesso;</li>
-                        <li>Capacitação para projetos com tecnologia IP;</li>
-                        <li>Sistema de neblina (fumaça);</li>
-                        <li>Sirenes de alto impacto;</li>
-                        <li>Controle de acesso por biometria, íris, facial, cartão e senha;</li>
-                        <li>Portaria com monitoramento remoto.</li>
-                    </ul>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    Efetuamos o controle de todas as etapas de atendimento ao chamado.
                 </p>
             </div>
             <div class="col-md-1 col-12"></div>

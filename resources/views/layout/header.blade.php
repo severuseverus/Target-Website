@@ -19,14 +19,17 @@
                             <li class="nav-item nav-option-2 @if(request()->routeIs('company')) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">A empresa</a>
                             </li>
-                            <li class="nav-item nav-option-3 dropdown @if(request()->routeIs("network-infrastructure") || request()->routeIs("electric-networks") || request()->routeIs("electronic-security") || request()->routeIs("telecommunications")) active @endif">
+                            <li class="nav-item nav-option-3 dropdown @if(request()->routeIs("network-infrastructure") || request()->routeIs("premium-networks") || request()->routeIs("electronic-security") || request()->routeIs("telecommunications") || request()->routeIs("information-technology") || request()->routeIs("moves-and-changes") || request()->routeIs("service-desk")) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link dropdown-toggle" href="" id="solutions-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Soluções
                                 </a>
                                 <div class="dropdown-menu pb-0 pt-0" aria-labelledby="solutions-items">
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('network-infrastructure') }}">Infraestrutura de Redes</a>
-                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('electric-networks') }}">Rede Elétrica</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('premium-networks') }}">Rede Premium</a>
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('electronic-security') }}">Segurança Eletrônica</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('information-technology') }}">Tecnologia da Informação</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('moves-and-changes') }}">Movimentos e Mudanças</a>
+                                    <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('service-desk') }}">Service Desk</a>
                                     <a class="dropdown-item py-sm-3 py-md-2 px-md-3 px-sm-5" href="{{ route('telecommunications') }}">Telecomunicações</a>
                                 </div>
                             </li>

@@ -16,13 +16,25 @@ Route::get('/infraestrutura-de-redes', function () {
     return view('solutions.network-infrastructure');
 })->name('network-infrastructure');
 
-Route::get('/redes-eletricas', function () {
-    return view('solutions.electric-networks');
-})->name('electric-networks');
+Route::get('/rede-premium', function () {
+    return view('solutions.premium-networks');
+})->name('premium-networks');
 
 Route::get('/seguranca-eletronica', function () {
     return view('solutions.electronic-security');
 })->name('electronic-security');
+
+Route::get('/tecnologia-da-informacao', function () {
+    return view('solutions.information-technology');
+})->name('information-technology');
+
+Route::get('/movimentos-e-mudancas', function () {
+    return view('solutions.moves-and-changes');
+})->name('moves-and-changes');
+
+Route::get('/service-desk', function () {
+    return view('solutions.service-desk');
+})->name('service-desk');
 
 Route::get('/telecomunicacoes', function () {
     return view('solutions.telecommunications');

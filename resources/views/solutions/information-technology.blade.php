@@ -9,37 +9,36 @@
 @section('content')
     <section class="network-infrastructure">
         <div class="row content justify-content-center content">
-            <h2 class="banner-title text-uppercase">Segurança Eletrônica</h2>
+            <h2 class="banner-title text-uppercase">Tecnologia da Informação</h2>
         </div>
     </section>
     <section class="network-infrastructure-content content">
         <ol class="breadcrumb pt-1 pl-md-0 pl-sm-2 d-none d-md-block">
             <li class="breadcrumb-item"><a href="{{ route('home') }}">início</a></li>
             <li class="breadcrumb-item"><a href="#">Soluções</a></li>
-            <li class="breadcrumb-item active">Segurança Eletrônica</li>
+            <li class="breadcrumb-item active">Tecnologia da Informação</li>
         </ol>
-    
+        
         <div class="row p-4 p-md-0">
             <div class="col-md-5 col-12">
+                <h3>Outsourcing de tecnologia</h3>
                 <p class="text-justify content-paragraph margin-paragraph">
-                    A TARGET tem se destacado no mercado por oferecer a melhor infraestrutura e qualidade de
-                    instalação, apresentando soluções personalizadas e inteligentes em segurança eletrônica.
+                    A terceirização de atividades que não fazem parte do core business da empresa é
+                    recomendada não apenas por questões de custos, mas também por questões de
+                    qualidade no resultado final.
+                    As empresas optam por contratar prestadores de serviços capacitados, ágeis e sempre
+                    disponíveis, que garantem melhor gestão e desempenho na utilização desse tipo de
+                    serviço, evitando gastos altos para a empresa com a criação de um núcleo de TI.
                 </p>
                 <p class="text-justify content-paragraph margin-paragraph">
-                    Nosso corpo técnico é composto por engenheiros e profissionais capacitados para oferecer
-                    soluções que atendam a todas as normas e exigências técnicas legais em:
+                    Objetivando uma maior eficiência na gestão destes recursos e da manutenção em
+                    operação, a Target oferece um outsourcing especializado, que resulta em economia para o
+                    cliente e um melhor nível de serviços recebidos de seus fornecedores.
                 </p>
-                <p class="text-justify content-paragraph">
-                    <ul>
-                        <li>Sistemas eletrônicos de detecção de intrusão (alarmes);</li>
-                        <li>Circuito fechado de TV (CFTV);</li>
-                        <li>Controle de acesso;</li>
-                        <li>Capacitação para projetos com tecnologia IP;</li>
-                        <li>Sistema de neblina (fumaça);</li>
-                        <li>Sirenes de alto impacto;</li>
-                        <li>Controle de acesso por biometria, íris, facial, cartão e senha;</li>
-                        <li>Portaria com monitoramento remoto.</li>
-                    </ul>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    Com a solução de outsourcing os pontos de contato com os fornecedores de Tecnologia
+                    são centralizados, deixando assim que os clientes concentrem todos os seus esforços no
+                    que realmente importa: o desenvolvimento dos seus negócios.
                 </p>
             </div>
             <div class="col-md-1 col-12"></div>

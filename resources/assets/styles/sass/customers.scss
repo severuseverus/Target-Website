@@ -5,8 +5,22 @@
   background-color: $blue-light;
   height: 377px;
 
+  @media screen and (max-width: $break-medium) {
+    height: 140px;
+  }
+
   .banner-title {
-    background-color: $blue-light;
+    background-color: transparent;
     margin-top: 202px;
+
+    @media screen and (max-width: $break-medium) {
+      margin-top: 60px;
+    }
+  }
+}
+
+.customers-content {
+  .content-paragraph {
+    line-height: 26px;
   }
 }

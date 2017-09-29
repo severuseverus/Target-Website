@@ -21,20 +21,53 @@
     
         <div class="row p-4 p-md-0">
             <div class="col-md-5 col-12">
+                <h3>REDUÇÃO DE CUSTOS</h3>
                 <p class="text-justify content-paragraph margin-paragraph">
-                    Lorem ipsum dolor sit amet, consectur adipiscing elit. Sed pallentesque lobortis vehicula.
-                    Mauris molestie risus erat, ut egestas tortor pulvinar in. Phasellus vel sem id purus
-                    volutpat malesuada.
+                    Através das análises de nossa equipe especializada, identificamos contratos desatualizados e
+                    cobranças inadequadas, por falta de conhecimento e orientação, evitando gastos
+                    desnecessários com as operadoras.
                 </p>
                 <p class="text-justify content-paragraph margin-paragraph">
-                    Nulla quam ante, fermentum in tincidut ut, feugiat in quam. In suspicit nec velit vitae
-                    mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                    Curae; In ornare mi at nisl consequat, vel consequat lectus pharetra.
+                    Com nossa consultoria buscamos os melhores planos das operadoras alinhando as melhores
+                    tecnologias e o menor preço a fim de atingir o máximo de redução de custos para a sua
+                    empresa.
                 </p>
-                <p class="text-justify content-paragraph">
-                    Lorem ipsum dolor sit amet, consectur, adipiscing elit. Sed pallentesque lobortis vehicula.
-                    Mauris molestie risus erat, ut egestas tortor pulvinar in. Phasellus vel sem id purus
-                    volutpat malesuada. Nam rutrum lacus in justo rhoncus pretium.
+                <p class="text-justify content-paragraph margin-paragraph">
+                    Elaboramos projetos customizados e fornecemos soluções em tecnologia e infraestrutura.
+                </p>
+    
+                <h3>IPBX</h3>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    Com o conceito de soluções “open source” em uma plataforma Linux, oferece diversos
+                    serviços integrados em uma única plataforma. Diferente das soluções proprietárias, o
+                    investimento é de baixo custo e permite customizações, personalizando o projeto de acordo
+                    com a necessidade de cada cliente.
+                    <br>
+                    A solução atende desde a pequena empresa até grandes companhias que exigem alta
+                    disponibilidade e performance. 
+                    <br>
+                    O módulo de Call Center oferece monitoramento on-line, Relatórios Estatísticos e Gráficos.
+                </p>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    O IPBX (PABX IP) é um sistema de telefonia completo que fornece ligações telefônicas sobre as
+                    redes de dados IP. Toda a conversação é enviada através de pacotes de dados sobre a rede.
+                    Ele permite conectividade com operadoras de telefonia fixa, móvel e VoIP, podendo trabalhar
+                    como sistema principal, recebendo e gerenciando todas as linhas e ramais ou pode ser
+                    integrado ao sistema de PABX tradicional, preservando assim, o investimento inicial.
+                </p>
+    
+                <h3>PABX</h3>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    Private Automatic Branch Exchange = Sistema privado automático de transferência de ramais.
+                </p>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    As facilidades oferecidas pelo PABX ainda fascinam os consumidores. Com ele instalado e
+                    configurado é possível transferir, reter e estacionar chamadas; e o mais importante, mantém o
+                    sigilo total entre as ligações.
+                </p>
+                <p class="text-justify content-paragraph margin-paragraph">
+                    Hoje temos disponíveis no mercado, as mais variadas marcas e modelos atendendo de forma
+                    exclusiva cada cliente.
                 </p>
             </div>
             <div class="col-md-1 col-12"></div>
@@ -65,15 +98,6 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 5rem;">
-            <div class="col-md-6 col-12 text-center text-md-right">
-                Dúvidas ou interesse?
-            </div>
-            <div class="col-md-6 col-12 text-center text-md-left">
-                <a href="{{ route('contact') }}" class="talk-to-us text-uppercase">
-                    Fale conosco
-                </a>
-            </div>
-        </div>
+        @include('solutions.partials.doubts')
     </section>
 @endsection

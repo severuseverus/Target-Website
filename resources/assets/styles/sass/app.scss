@@ -56,7 +56,8 @@ input {
 
 .dropdown-menu.show {
   display: flex;
-  margin: -1px 0px 0px -20px;
+  flex-direction: column;
+  margin: -1px 0px 0px -1px;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -352,7 +353,7 @@ input {
   }
 
   @media screen and (max-width: $break-medium) {
-    font-size: 12px;
+    font-size: 20px;
     height: auto;
   }
 }

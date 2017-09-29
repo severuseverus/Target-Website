@@ -22,19 +22,13 @@
         <div class="row p-4 p-md-0">
             <div class="col-md-5 col-12">
                 <p class="text-justify content-paragraph margin-paragraph">
-                    Lorem ipsum dolor sit amet, consectur adipiscing elit. Sed pallentesque lobortis vehicula.
-                    Mauris molestie risus erat, ut egestas tortor pulvinar in. Phasellus vel sem id purus
-                    volutpat malesuada.
+                    Executamos projetos e implantações de rede estruturada CAT5, CAT6 e CAT7, dados, voz e
+                    imagem, seguindo as diretrizes das normas nacionais e internacionais.
                 </p>
                 <p class="text-justify content-paragraph margin-paragraph">
-                    Nulla quam ante, fermentum in tincidut ut, feugiat in quam. In suspicit nec velit vitae
-                    mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-                    Curae; In ornare mi at nisl consequat, vel consequat lectus pharetra.
-                </p>
-                <p class="text-justify content-paragraph">
-                    Lorem ipsum dolor sit amet, consectur, adipiscing elit. Sed pallentesque lobortis vehicula.
-                    Mauris molestie risus erat, ut egestas tortor pulvinar in. Phasellus vel sem id purus
-                    volutpat malesuada. Nam rutrum lacus in justo rhoncus pretium.
+                    Trabalhamos em parceria no desenvolvimento e gerenciamento do projeto do cliente.
+                    Utilizamos estratégias que economizam recursos e horas de trabalho reduzindo ao máximo o
+                    tempo de execução de forma organizada, garantindo a entrega dentro do prazo.
                 </p>
             </div>
             <div class="col-md-1 col-12"></div>
@@ -65,15 +59,6 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="margin-top: 5rem;">
-            <div class="col-md-6 col-12 text-center text-md-right">
-                Dúvidas ou interesse?
-            </div>
-            <div class="col-md-6 col-12 text-center text-md-left">
-                <a href="{{ route('contact') }}" class="talk-to-us text-uppercase">
-                    Fale conosco
-                </a>
-            </div>
-        </div>
+        @include('solutions.partials.doubts')
     </section>
 @endsection
