@@ -2,8 +2,14 @@
 @import "variables";
 
 .company {
-  background-color: $blue-dark;
+  background: #cecece url("/images/banners/desktop/_Banner_A_Empresa.png") no-repeat;
+  background-size: cover;
   height: 377px;
+
+  @media screen and (max-width: $break-medium) {
+    background: #cecece url("/images/banners/mobile/_Banner_A_Empresa.png") no-repeat;
+    background-size: cover;
+  }
 
   .banner-title {
     margin-top: 202px;
