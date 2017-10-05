@@ -3,5 +3,11 @@
     "/_html/css/app.css": "/_html/css/app.css",
     "/_html/css/customers.css": "/_html/css/customers.css",
     "/_html/css/network-infrastructure.css": "/_html/css/network-infrastructure.css",
+    "/_html/css/premium-networks.css": "/_html/css/premium-networks.css",
+    "/_html/css/electronic-security.css": "/_html/css/electronic-security.css",
+    "/_html/css/information-technology.css": "/_html/css/information-technology.css",
+    "/_html/css/moves-and-changes.css": "/_html/css/moves-and-changes.css",
+    "/_html/css/service-desk.css": "/_html/css/service-desk.css",
+    "/_html/css/telecommunications.css": "/_html/css/telecommunications.css",
     "/_html/css/company.css": "/_html/css/company.css"
 }
