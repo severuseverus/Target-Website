@@ -3,7 +3,7 @@
 @section('styles')
     @parent
     
-    <link href="{{ asset('css/customers.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/contact.css') }}" rel="stylesheet" type="text/css">
 @endsection
 
 @section('content')

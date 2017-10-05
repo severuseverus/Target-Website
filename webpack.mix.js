@@ -14,6 +14,8 @@ let mix = require('laravel-mix');
 mix.js('resources/assets/js/app.js', './public_html/js/app.js')
     .sass('resources/assets/styles/sass/app.scss', './public_html/css')
     .sass('resources/assets/styles/sass/customers.scss', './public_html/css')
+    .sass('resources/assets/styles/sass/cases.scss', './public_html/css')
+    .sass('resources/assets/styles/sass/contact.scss', './public_html/css')
     .sass('resources/assets/styles/sass/commercial-partners.scss', './public_html/css')
     .sass('resources/assets/styles/sass/technological-partners.scss', './public_html/css')
     .sass('resources/assets/styles/sass/network-infrastructure.scss', './public_html/css')
