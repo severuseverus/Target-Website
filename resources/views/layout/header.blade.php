@@ -17,7 +17,7 @@
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('home') }}">Inicio</a>
                             </li>
                             <li class="nav-item nav-option-2 @if(request()->routeIs('company')) active @endif">
-                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="#">A empresa</a>
+                                <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link" href="{{ route('company') }}">A empresa</a>
                             </li>
                             <li class="nav-item nav-option-3 dropdown @if(request()->routeIs("network-infrastructure") || request()->routeIs("premium-networks") || request()->routeIs("electronic-security") || request()->routeIs("telecommunications") || request()->routeIs("information-technology") || request()->routeIs("moves-and-changes") || request()->routeIs("service-desk")) active @endif">
                                 <a class="px-sm-4 px-md-0 py-sm-3 py-md-0 nav-link dropdown-toggle" href="" id="solutions-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

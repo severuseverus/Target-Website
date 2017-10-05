@@ -12,6 +12,10 @@ Route::get('/clientes', function () {
     return view('customers');
 })->name('customers');
 
+Route::get('/empresa', function () {
+    return view('company');
+})->name('company');
+
 Route::get('/infraestrutura-de-redes', function () {
     return view('solutions.network-infrastructure');
 })->name('network-infrastructure');

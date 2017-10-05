@@ -28,23 +28,25 @@
     
     @include('layout.footer')
 </div>
-<script type="text/javascript" src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('plugins/popper.js/dist/umd/popper.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('plugins/slick/slick.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('plugins/FitText.js/jquery.fittext.js') }}"></script>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".slider").slick({
-            arrows: false,
-            dots: true,
-            autoplay: true,
-            autoplaySpeed: 3000
+@section('scripts')
+    <script type="text/javascript" src="{{ asset('js/jquery-3.2.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/popper.js/dist/umd/popper.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('plugins/FitText.js/jquery.fittext.js') }}"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".slider").slick({
+                arrows: false,
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 3000
+            });
+            
+            $(".fit-text").fitText();
         });
-        
-        $(".fit-text").fitText();
-    });
-</script>
+    </script>
+@show
 </body>
 </html>
