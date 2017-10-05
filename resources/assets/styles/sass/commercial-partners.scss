@@ -2,12 +2,12 @@
 @import "variables";
 
 .customers-banner {
-  background: #cecece url("/images/banners/desktop/_Banner_Solucoes_Movimentos_e_Mudancas.png") no-repeat;
+  background: #cecece url("/images/banners/desktop/_Banner_Parceiros_Comerciais.png") no-repeat;
   background-size: cover;
   height: 377px;
 
   @media screen and (max-width: $break-medium) {
-    background: #cecece url("/images/banners/desktop/_Banner_Solucoes_Movimentos_e_Mudancas.png") no-repeat;
+    background: #cecece url("/images/banners/desktop/_Banner_Parceiros_Comerciais.png") no-repeat;
     background-size: cover;
     height: 140px;
   }
