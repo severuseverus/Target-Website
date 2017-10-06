@@ -30,7 +30,7 @@
                     Nosso corpo técnico é composto por engenheiros e profissionais capacitados para oferecer
                     soluções que atendam a todas as normas e exigências técnicas legais em:
                 </p>
-                <ul class="content-paragraph">
+                <ul class="content-paragraph" style="font-size: 15px;line-height: 26px;">
                     <li>Sistemas eletrônicos de detecção de intrusão (alarmes);</li>
                     <li>Circuito fechado de TV (CFTV);</li>
                     <li>Controle de acesso;</li>

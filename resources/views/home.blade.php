@@ -9,7 +9,7 @@
                         Somos os melhores em <strong>infraestrutura de redes</strong> para a sua empresa
                     </div>
                     <div class="col-12">
-                        <a href="javascript:void(0)" class="cta-button">Saiba mais</a>
+                        <a href="{{ route('company') }}" class="cta-button">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -17,7 +17,7 @@
                 <div class="row content d-flex justify-content-center">
                     <div class="col-12 col-md-7 text-justify">Somos os melhores em <strong>infraestrutura de redes</strong> para a sua empresa</div>
                     <div class="col-12">
-                        <a href="javascript:void(0)" class="cta-button">Saiba mais</a>
+                        <a href="{{ route('company') }}" class="cta-button">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -80,18 +80,31 @@
             <div class="slider-item">
                 <div class="row justify-content-center content">
                     <ul class="d-flex pl-0" style="list-style: none;justify-content: space-between;width: 100%;">
-                        <li class="mt-md-5 mt-0"><img src="{{ asset('images/partners/cetelem.png') }}" class="d-flex" width="100%" alt=""></li>
-                        <li class="mt-md-5 mt-0"><img src="{{ asset('images/partners/coca-cola.png') }}" class="d-flex" width="100%" alt=""></li>
-                        <li class="mt-md-5 mt-0"><img src="{{ asset('images/partners/femsa.png') }}" class="d-flex" width="100%" alt=""></li>
-                        <li class="mt-md-5 mt-0"><img src="{{ asset('images/partners/heineken.png') }}" class="d-flex" width="100%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_microsoft.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_panasonic.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/commercial/_logo_telcabos.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/commercial/logo_network.png') }}" class="align-self-center" width="80%" alt=""></li>
                     </ul>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row justify-content-center content">
-                    <div class="col-md-3 mt-md-5 mt-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/telhanorte.png') }}" width="100%" alt=""></div>
-                    <div class="col-md-3 mt-md-5 mt-0 justify-content-center px-2 align-self-center d-flex"><img src="{{ asset('images/partners/hp.png') }}" height="100%" alt=""></div>
-                    <div class="col-md-3 mt-md-5 mt-0 justify-content-center px-2 align-self-center"><img src="{{ asset('images/partners/saint-gobain.png') }}" width="100%" alt=""></div>
+                    <ul class="d-flex pl-0" style="list-style: none;justify-content: space-between;width: 100%;">
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/commercial/logo_wdc.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_dell.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_furukawa.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_grandstream.png') }}" class="align-self-center" width="80%" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="row justify-content-center content">
+                    <ul class="d-flex pl-0" style="list-style: none;justify-content: space-between;width: 100%;">
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/commercial/_logo_plantec.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_intelbras.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/technological/logo_plantronics.png') }}" class="align-self-center" width="80%" alt=""></li>
+                        <li class="mt-md-5 mt-0 d-flex"><img src="{{ asset('images/partners/commercial/logo_velans.png') }}" class="align-self-center" width="80%" alt=""></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -99,49 +112,49 @@
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/cetelem.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/technological/logo_microsoft.png') }}" alt="Microsoft">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/coca-cola.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/technological/logo_panasonic.png') }}" alt="Panasonic">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/femsa.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/technological/logo_furukawa.png') }}" alt="Furukawa">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/heineken.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/commercial/logo_network.png') }}" alt="Network">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/telhanorte.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/commercial/_logo_plantec.png') }}" alt="Plantec">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/hp.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/technological/logo_dell.png') }}" alt="Dell">
                     </div>
                 </div>
             </div>
             <div class="slider-item">
                 <div class="row content">
                     <div class="col-12 d-flex justify-content-center mt-3 mt-md-0" style="margin-bottom: -10px;">
-                        <img src="{{ asset('images/partners/saint-gobain.png') }}" alt="Coca cola">
+                        <img src="{{ asset('images/partners/commercial/logo_velans.png') }}" alt="Velans">
                     </div>
                 </div>
             </div>

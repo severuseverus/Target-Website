@@ -67,8 +67,8 @@
                 <div class="row">
                     <div class="col-7">
                         <ul>
-                            <li>Target CNPJ: 00.000.000/0000-00</li>
-                            <li>Avenida Amador Bueno da Veiga, 2299, Penha de França - SP - CEP: 03635-001</li>
+                            <li>Target CNPJ: 26.542.834/0001-12</li>
+                            <li>Avenida Amador Bueno da Veiga, 2299 São Paulo – SP - CEP: 03635-001</li>
                             <li>Copyright  {{ date('Y') }} - Target</li>
                         </ul>
                     </div>

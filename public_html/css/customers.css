@@ -1,1 +1,29 @@
-.customers-banner{background:#cecece url("/images/banners/desktop/_Banner_Clientes.png") no-repeat;background-size:cover;height:377px}@media screen and (max-width:767px){.customers-banner{background:#cecece url("/images/banners/desktop/_Banner_Clientes.png") no-repeat;background-size:cover;height:140px}}.customers-banner .banner-title{background-color:transparent;margin-top:202px}@media screen and (max-width:767px){.customers-banner .banner-title{margin-top:60px}}.customers-content .content-paragraph{line-height:26px}
+.customers-banner {
+  background: #cecece url("/images/banners/desktop/_Banner_Clientes.png") no-repeat;
+  background-size: cover;
+  height: 377px;
+}
+
+@media screen and (max-width: 767px) {
+  .customers-banner {
+    background: #cecece url("/images/banners/desktop/_Banner_Clientes.png") no-repeat;
+    background-size: cover;
+    height: 140px;
+  }
+}
+
+.customers-banner .banner-title {
+  background-color: transparent;
+  margin-top: 202px;
+}
+
+@media screen and (max-width: 767px) {
+  .customers-banner .banner-title {
+    margin-top: 60px;
+  }
+}
+
+.customers-content .content-paragraph {
+  line-height: 26px;
+}
+

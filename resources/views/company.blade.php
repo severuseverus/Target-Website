@@ -45,7 +45,7 @@
                 </div>
             </div>
             <div class="row mt-4">
-                <div class="col-md-4 pr-md-5">
+                <div class="col-12 col-md-4 pr-md-5">
                     <div class="pr-md-1">
                         <h4 class="text-uppercase culture-code-item-title">Missão</h4>
                         <p class="text-justify content-paragraph mt-4">
@@ -56,7 +56,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4 pl-md-3 pr-md-3">
+                <div class="col-12 col-md-4 pl-md-3 pr-md-3">
                     <h4 class="text-uppercase culture-code-item-title">Visão</h4>
                     <p class="text-justify content-paragraph mt-4">
                         Lorem ipsum dolor sit amet,
@@ -65,7 +65,7 @@
                         Mauris molestie risus.
                     </p>
                 </div>
-                <div class="col-md-4 pl-md-5">
+                <div class="col-12 col-md-4 pl-md-5">
                     <div class="pl-md-1">
                         <h4 class="text-uppercase culture-code-item-title">Valores</h4>
                         <p class="text-justify content-paragraph mt-4">
@@ -145,6 +145,67 @@
                             </div>
                         </li>
                     </ul>
+                    <div class="row justify-content-center">
+                        <div class="col-1 d-none">
+                            <ul class="timeline-vertical p-0">
+                                <li class="fact">
+                                    <div class="fact-active-selector"></div>
+                                    <div class="horizontal-line-left"></div>
+            
+                                    <div class="fact-content">
+                                        A Tecoffice se fundiu em 2016 com a Evec Telecom. Com a
+                                        fusão a empresa conta com mais de 8 anos de experiência
+                                        no mercado de TI e Telecom, sendo uma das empresas especializadas
+                                        em projetos de Telecomunicações e TI, Infraestrutura e Elétrica e Outsourcing.
+                                    </div>
+                                </li>
+                                <li class="fact">
+                                    <div class="fact-active-selector"></div>
+                                    <div class="horizontal-line-right"></div>
+            
+                                    <div class="fact-content" style="left: -96px;">
+                                        A Tecoffice se fundiu em 2016 com a Evec Telecom. Com a
+                                        fusão a empresa conta com mais de 8 anos de experiência
+                                        no mercado de TI e Telecom, sendo uma das empresas especializadas
+                                        em projetos de Telecomunicações e TI, Infraestrutura e Elétrica e Outsourcing.
+                                    </div>
+                                </li>
+                                <li class="fact">
+                                    <div class="fact-active-selector"></div>
+                                    <div class="horizontal-line-left"></div>
+            
+                                    <div class="fact-content" style="left: -170px;">
+                                        A Tecoffice se fundiu em 2016 com a Evec Telecom. Com a
+                                        fusão a empresa conta com mais de 8 anos de experiência
+                                        no mercado de TI e Telecom, sendo uma das empresas especializadas
+                                        em projetos de Telecomunicações e TI, Infraestrutura e Elétrica e Outsourcing.
+                                    </div>
+                                </li>
+                                <li class="fact active">
+                                    <div class="fact-active-selector"></div>
+                                    <div class="horizontal-line-right"></div>
+            
+                                    <div class="fact-content" style="left: -170px;">
+                                        A Tecoffice se fundiu em 2016 com a Evec Telecom. Com a
+                                        fusão a empresa conta com mais de 8 anos de experiência
+                                        no mercado de TI e Telecom, sendo uma das empresas especializadas
+                                        em projetos de Telecomunicações e TI, Infraestrutura e Elétrica e Outsourcing.
+                                    </div>
+                                </li>
+                                <li class="fact">
+                                    <div class="fact-active-selector"></div>
+                                    <div class="horizontal-line-left"></div>
+            
+                                    <div class="fact-content" style="left: -345px;">
+                                        A Tecoffice se fundiu em 2016 com a Evec Telecom. Com a
+                                        fusão a empresa conta com mais de 8 anos de experiência
+                                        no mercado de TI e Telecom, sendo uma das empresas especializadas
+                                        em projetos de Telecomunicações e TI, Infraestrutura e Elétrica e Outsourcing.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,9 +221,9 @@
             if (! parent.hasClass('active')) {
                 $('li.fact').removeClass('active');
     
-                $('.fact-active-selector, .vertical-line, .fact-content').css('opacity', 0);
+                $('.fact-active-selector, .vertical-line, .horizontal-line-left, .horizontal-line-right, .fact-content').css('opacity', 0);
     
-                parent.find('.fact-active-selector, .vertical-line, .fact-content').animate({
+                parent.find('.fact-active-selector, .vertical-line, .horizontal-line-left, .horizontal-line-right, .fact-content').animate({
                     opacity : 1
                 }, 20);
                 parent.addClass('active');
